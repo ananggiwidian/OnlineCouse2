@@ -1,0 +1,7 @@
+{
+  "name": "my-fullstack-app",
+  "scripts": {
+    "vercel-install": "npm install --prefix backend && npm install --prefix frontend",
+    "vercel-build": "npm run build --prefix frontend"
+  }
+}
